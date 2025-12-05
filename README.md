@@ -1,12 +1,9 @@
-<div align="center">
-
 # MiniStore
 Modern mini e-commerce experience built with the Next.js App Router, TypeScript, Tailwind CSS, and server actions.  
 Showcases curated lifestyle products, rich product detail pages, and a cart flow powered by React context.
 
-</div>
 
-## 📸 Features
+## Features
 
 - **Home page** with hero, locally hosted imagery, and dynamic product grid.
 - **Product detail page** (`/products/[id]`) with large imagery, metadata, and `(+ / -)` quantity controls.
@@ -15,7 +12,7 @@ Showcases curated lifestyle products, rich product detail pages, and a cart flow
 - **Responsive UI** with MiniStore branding, gradients, and polished Tailwind components.
 - **Local product data** backed by `src/data/products.ts` so the app works offline and is easy to customize.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer        | Details                                |
 |--------------|-----------------------------------------|
