@@ -69,13 +69,13 @@ export default async function ProductDetail({
     <div className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-4 py-10 sm:px-6 lg:px-8">
       <Link
         href="/"
-        className="text-sm font-medium text-zinc-500 transition hover:text-zinc-900"
+        className="inline-flex w-fit items-center gap-2 text-sm font-medium text-zinc-500 transition hover:text-zinc-900"
       >
         ← Back to products
       </Link>
 
-      <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
-        <div className="overflow-hidden rounded-3xl bg-white shadow-sm shadow-black/5">
+      <div className="grid gap-10 rounded-[32px] border border-white/60 bg-white/70 p-6 shadow-[0_40px_120px_rgba(15,23,42,0.09)] lg:grid-cols-[1.05fr_0.95fr]">
+        <div className="overflow-hidden rounded-[28px] border border-white/70 bg-white shadow-inner">
           <Image
             src={product.image}
             alt={product.name}
